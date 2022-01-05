@@ -1,6 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
 body {
     font-family: 'Khula', sans-serif;
-    margin: 10px;
+    margin-left: 10vh;
+    margin-right: 10vh;
     text-align: left;
+    width: 90%;
+    font-size: 1rem;
+}
+
+header {
+    position: static;
+    width: 100%;
+    height: 300px;
+    background: #fff;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.rss {
+    margin-block-start: 0em;
+}
+
+.hr-dotted {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dotted #ddd;
+}
+
+#code-example {
+    background-color: dimgray;
+}
+
+nav {
+    background-color: darkgray;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    display: inline-flex;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 200px;
+    background-color: darkgray;
+    justify-content: center;
+}
+
+.footer-list {
+    width: 50%;
+    display: flex;
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: white;
 }
